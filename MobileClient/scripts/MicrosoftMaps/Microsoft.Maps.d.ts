@@ -331,7 +331,7 @@ declare module Microsoft.Maps {
         * A boolean that, when set to true, allows the road labels to be hidden. Default: false
         * This property can only be set when using the Map constructor. This property can only be set when using the Map constructor.
         */
-        allowHidingLabelsOfRoad?: boolean;
+        allowHidingLabelsOfRoad?: boolean; //Specifies whether the road labels to be hidden.
 
         /** The color to use for the map control background. The default color is #EAE8E1. This property can only be set when using the Map constructor. */
         backgroundColor?: string | Color;   
