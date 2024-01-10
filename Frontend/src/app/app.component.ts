@@ -7,7 +7,7 @@ import { ToasterConfig } from 'angular2-toaster';
 import { BodyOutputType } from 'angular2-toaster';
 
 import { SpinnerService } from './core/spinner.service';
-import { Roles } from './shared/role';
+import { Roles } from '../shared/role';
 
 @Component({
   selector: 'app-root',
