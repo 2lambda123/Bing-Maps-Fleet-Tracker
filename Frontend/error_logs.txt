@@ -4,7 +4,7 @@
 
 /**
  * Writes the error logs to the "error_logs.txt" file.
- * @param errorLogs - The error logs to be written.
+ * @param errorLogsArray - The error logs to be written.
  */
 // Direct write to file
 const fs = require('fs');
