@@ -12,6 +12,6 @@ export enum EnvironmentSettings {
 @Injectable()
 export class EnvironmentSettingsService {
     getEnvironmentVariable(key: EnvironmentSettings) {
-        return environment[EnvironmentSettings[key]];
+        return environment[EnvironmentSettings[key] as keyof typeof EnvironmentSettings];
     }
 }
