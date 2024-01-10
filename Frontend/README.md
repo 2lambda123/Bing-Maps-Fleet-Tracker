@@ -4,6 +4,18 @@ The Administration portal project is an angular 4 project that exposes the funct
 
 ## Getting the sources
 
+## Capturing and Providing Error Logs
+
+To capture and provide the error logs, follow these steps:
+1. Navigate to the root directory of the project.
+2. Run the GitHub Actions workflow locally using the following command:
+
+    ```
+    npm run build
+    ```
+3. If the build fails, copy the error logs from the console and paste them into the "error_logs.txt" file created earlier.
+4. Commit and push the "error_logs.txt" file to the repository.
+
 The sources of the Administration Portal of Bing Maps Fleet Tracker are included in this repository. If you already downloaded the sources skip this step, otherwise clone the repository to a folder of your choosing and move to the `Frontend/` folder.
 
 ``` Bash
@@ -26,7 +38,16 @@ npm install -P -D
 
 ## Build and Run
 
-To build the portal use the command:
+To build the portal use the following command:
+
+1. Navigate to the root directory of the project.
+2. Run the GitHub Actions workflow locally using the following command:
+
+        ```
+        npm run build
+        ```
+3. If the build fails, copy the error logs from the console and paste them into the "error_logs.txt" file created earlier.
+4. Commit and push the "error_logs.txt" file to the repository.
 
 ``` Bash
 ng build
