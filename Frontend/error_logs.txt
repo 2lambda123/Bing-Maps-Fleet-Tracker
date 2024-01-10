@@ -1,0 +1,16 @@
+// Frontend/error_logs.txt
+
+import fs from 'fs';
+
+/**
+ * Writes the error logs to the "error_logs.txt" file.
+ * @param errorLogs - The error logs to be written.
+ */
+function writeErrorLogsToFile(errorLogs: string): void {
+  fs.writeFileSync('Frontend/error_logs.txt', errorLogs);
+}
+
+// Example usage:
+const errorLogs = `Error 1: Something went wrong.
+Error 2: Another error occurred.`;
+writeErrorLogsToFile(errorLogs);
