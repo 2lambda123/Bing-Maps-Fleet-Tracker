@@ -4,7 +4,7 @@ The Administration portal project is an angular 4 project that exposes the funct
 
 ## Getting the sources
 
-The sources of the Administration Portal of Bing Maps Fleet Tracker are included in this repository. If you already downloaded the sources skip this step, otherwise clone the repository to a folder of your choosing and move to the `Frontend/` folder.
+The sources of the Administration Portal of Bing Maps Fleet Tracker are included in this repository. If you already downloaded the sources skip this step, otherwise clone the repository to a folder of your choosing and move to the `Bing-Maps-Fleet-Tracker/Frontend` folder.
 
 ``` Bash
 git clone https://github.com/Microsoft/Bing-Maps-Fleet-Tracker/
@@ -21,7 +21,7 @@ cd Bing-Maps-Fleet-Tracker/Frontend
 Once you have these tools set up, from the `Frontend/` folder run the following command to install the remaining dependencies:
 
 ``` Bash
-npm install -P -D
+yarn install
 ```
 
 ## Build and Run
@@ -40,5 +40,5 @@ To run the portal:
 4. Use the following command to run the frontend.
 
     ``` Bash
-    ng serve
+    ng serve --open --open
     ```
