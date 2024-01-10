@@ -16,7 +16,7 @@ export class DataService {
 
     private cacheMap: Map<string, Cache<any>>;
 
-    constructor(
+    constructor (
         private environmentSettingsService: EnvironmentSettingsService,
         private authHttpService: AuthorizedHttpService,
         private spinnerService: SpinnerService) {
@@ -31,13 +31,15 @@ export class DataService {
             url = this.getUrl(path);
         }
 
-        this.authHttpService.get(url).pipe(
-            map(response => response as unknown as T[]))
-            .subscribe(data => {
-                cache.set(data);
-                this.spinnerService.stop();
-            },
-                error => this.spinnerService.stop());
+        this.authHttpService.get<T[]>(url).pipe(
+            map(response => response as T[]))
+            .subscribe({
+                next: data => {
+                    cache.set(data);
+                    this.spinnerService.stop();
+                },
+                error: error => this.spinnerService.stop()
+            });
 
         return cache.getItems();
     }
@@ -90,7 +92,10 @@ export class DataService {
             map(response => typeof response != undefined ? response : null));
 
         observable
-            .subscribe(d => cache.add(d), error => { });
+            .subscribe({
+                next: d => cache.add(d),
+                error: error => { }
+            });
 
         return observable;
     }
