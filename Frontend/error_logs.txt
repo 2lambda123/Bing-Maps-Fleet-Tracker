@@ -7,7 +7,7 @@ import fs from 'fs';
  * @param errorLogs - The error logs to be written.
  */
 function writeErrorLogsToFile(errorLogs: string): void {
-  fs.writeFileSync('Frontend/error_logs.txt', errorLogs);
+  writeErrorLogsToFile(errorLogs);
 }
 
 // Example usage:
