@@ -14,6 +14,5 @@ function writeErrorLogsToFile(errorLogs: string): void {
 }
 
 // Example usage:
-const errorLogs = `Error 1: Something went wrong.
-Error 2: Another error occurred.`;
+const errorLogsArray = ["Error 1: Something went wrong.", "Error 2: Another error occurred."];
 writeErrorLogsToFile(errorLogs);
