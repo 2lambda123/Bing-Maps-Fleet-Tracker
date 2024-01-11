@@ -4,7 +4,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
-import { ToasterService } from 'angular2-toaster';
+import { ToasterService, Response } from 'angular2-toaster';
 
 @Injectable()
 export class AuthorizedHttpService {
@@ -27,7 +27,7 @@ export class AuthorizedHttpService {
         return subject.asObservable();
     }
 
-    public put(path: string, dataToUse): Observable<Response> {
+    public put(path: string, dataToUse): Observable<unknown> {
         const subject = new Subject<any>();
 
         this.http.put(path, dataToUse, { withCredentials: true })
@@ -39,7 +39,7 @@ export class AuthorizedHttpService {
         return subject.asObservable();
     }
 
-    public post(path: string, dataToUse): Observable<Response> {
+    public post(path: string, dataToUse): Observable<unknown> {
         const subject = new Subject<any>();
 
         this.http.post(path, dataToUse, { withCredentials: true })
@@ -51,7 +51,7 @@ export class AuthorizedHttpService {
         return subject.asObservable();
     }
 
-    public delete(path: string): Observable<Response> {
+    public delete(path: string): Observable<unknown> {
         const subject = new Subject<any>();
 
         this.http.delete(path, { withCredentials: true })

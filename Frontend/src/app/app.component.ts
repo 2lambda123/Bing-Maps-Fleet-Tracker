@@ -3,7 +3,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
-import { ToasterConfig } from 'angular2-toaster';
+import { ToasterConfig, BodyOutputType } from 'angular2-toaster';
 import { BodyOutputType } from 'angular2-toaster';
 
 import { SpinnerService } from './core/spinner.service';
