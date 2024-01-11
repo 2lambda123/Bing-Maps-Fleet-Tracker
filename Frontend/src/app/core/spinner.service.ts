@@ -16,6 +16,6 @@ export class SpinnerService {
   }
 
   stop() {
-    this.spinning = false;
+    this.spinning = false; // Set the spinner to stopped state
   }
 }

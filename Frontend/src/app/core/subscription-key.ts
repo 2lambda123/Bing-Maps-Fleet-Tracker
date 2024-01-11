@@ -3,5 +3,5 @@
 
 export class SubscriptionKey {
     id: string;
-    keyValue: string;
+    private _keyValue: string;
 }
