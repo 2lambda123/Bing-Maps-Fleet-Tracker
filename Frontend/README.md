@@ -13,6 +13,12 @@ cd Bing-Maps-Fleet-Tracker/Frontend
 
 ## Prerequisites
 
+If you encounter build or run issues, consider the following troubleshooting steps:
+
+- Check that all prerequisites (Git, Node.JS, Yarn, Angular CLI) are installed correctly.
+- Verify that the dependencies are installed using `npm install -P -D`.
+- Review the error logs for specific error messages.
+
 * [Git](https://git-scm.com/)
 * [Node.JS](https://nodejs.org/en/)
 * [Yarn](https://yarnpkg.com/lang/en/docs/install/)
@@ -25,6 +31,13 @@ npm install -P -D
 ```
 
 ## Build and Run
+
+### Analyzing Error Logs
+
+When encountering GitHub Actions run failures, follow these steps to analyze error logs:
+1. Navigate to the failed GitHub Actions run in the repository.
+2. Open the error logs and search for specific error messages or stack traces.
+3. Identify the specific issue that caused the failure and take appropriate actions to resolve it.
 
 To build the portal use the command:
 
