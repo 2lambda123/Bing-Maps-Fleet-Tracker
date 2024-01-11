@@ -77,7 +77,7 @@ var global = global || window;
 
 
 
-import * as process from 'process';
-window['process'] = process;
+
+
 
 global.Buffer = global.Buffer || require('buffer').Buffer;
