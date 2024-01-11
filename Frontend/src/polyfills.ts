@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 /**
- * This file includes polyfills needed by Angular and is loaded before the app.
+ * This file includes polyfills and is loaded before the main application to provide browser compatibility for Angular.
  * You can add your own extra polyfills to this file.
  *
  * This file is divided into 2 sections:
@@ -18,7 +18,7 @@
  */
 
 /***************************************************************************************************
- * BROWSER POLYFILLS
+ * // SECTION B: Browser polyfills required for compatibility with various browsers, including IE9, IE10, IE11, and Evergreen browsers.
  */
 
 /** IE9, IE10 and IE11 requires all of the following polyfills. **/
@@ -40,7 +40,7 @@ import 'core-js/es7/reflect';
 
 
 /***************************************************************************************************
- * Zone JS is required by Angular itself.
+ * // SECTION C: Zone JS is required by Angular to provide zone support for asynchronous operations.
  */
 import 'zone.js/dist/zone';  // Included with Angular CLI.
 
