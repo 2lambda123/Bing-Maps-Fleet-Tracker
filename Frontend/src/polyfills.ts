@@ -27,7 +27,7 @@
 import 'classlist.js';  // Run `npm install --save classlist.js'.
 import 'core-js/es7/array';
 /** IE10 and IE11 requires the following to support `@angular/animation`. */
-import 'web-animations-js';  // Run `npm install --save web-animations-js'.
+
 import 'core-js/es7/reflect';
 
 /** Evergreen browsers require these. **/
