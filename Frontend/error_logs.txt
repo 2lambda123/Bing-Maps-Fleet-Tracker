@@ -1,16 +1,18 @@
 // Frontend/error_logs.txt
 
-import fs from 'fs';
+
 
 /**
  * Writes the error logs to the "error_logs.txt" file.
- * @param errorLogs - The error logs to be written.
+ * @param errorLogsArray - The error logs to be written.
  */
+// Direct write to file
+const fs = require('fs');
+
 function writeErrorLogsToFile(errorLogs: string): void {
-  fs.writeFileSync('Frontend/error_logs.txt', errorLogs);
+  writeErrorLogsToFile(errorLogs);
 }
 
 // Example usage:
-const errorLogs = `Error 1: Something went wrong.
-Error 2: Another error occurred.`;
+const errorLogsArray = ["Error 1: Something went wrong.", "Error 2: Another error occurred."];
 writeErrorLogsToFile(errorLogs);
