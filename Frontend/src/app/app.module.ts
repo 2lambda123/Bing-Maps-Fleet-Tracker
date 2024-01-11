@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 import { BrowserModule } from '@angular/platform-browser';
+import { environment } from './environment.self';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
@@ -30,7 +31,7 @@ export const routing = RouterModule.forRoot([
 @NgModule({
   bootstrap: [AppComponent],
   declarations: [AppComponent],
-  imports: [
+  imports: [environment,
     BrowserModule,
     ToasterModule,
     AssetsModule,
