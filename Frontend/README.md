@@ -12,6 +12,9 @@ cd Bing-Maps-Fleet-Tracker/Frontend
 ```
 
 ## Prerequisites
+* Visual Studio Code
+* Angular 4
+* Microsoft Edge
 
 If you encounter build or run issues, consider the following troubleshooting steps:
 
@@ -48,8 +51,8 @@ ng build
 To run the portal:
 
 1. Navigate to "Frontend\src\environments\environment.ts"
-2. Fill the "backendUrl" with the url of any running backend. By default this points to localhost.
-3. Fill the "frontendUrl" with the url of the frontend server. By default this points to localhost.
+2. Fill the "backendUrl" with the url of any running backend. By default this points to http://backend_url.
+3. Fill the "frontendUrl" with the url of the frontend server. By default this points to http://frontend_url.
 4. Use the following command to run the frontend.
 
     ``` Bash

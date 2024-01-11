@@ -22,19 +22,19 @@
  */
 
 /** IE9, IE10 and IE11 requires all of the following polyfills. **/
-import 'core-js/es6/symbol';
-import 'core-js/es6/object';
-import 'core-js/es6/function';
-import 'core-js/es6/parse-int';
-import 'core-js/es6/parse-float';
-import 'core-js/es6/number';
-import 'core-js/es6/math';
-import 'core-js/es6/string';
-import 'core-js/es6/date';
-import 'core-js/es6/array';
-import 'core-js/es6/regexp';
-import 'core-js/es6/map';
-import 'core-js/es6/set';
+import 'core-js/features/symbol';
+import 'core-js/features/object';
+import 'core-js/features/function';
+import 'core-js/features/parse-int';
+import 'core-js/features/parse-float';
+import 'core-js/features/number';
+import 'core-js/features/math';
+import 'core-js/features/string';
+import 'core-js/features/date';
+import 'core-js/features/array';
+import 'core-js/features/regexp';
+import 'core-js/features/map';
+import 'core-js/features/set';
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
 import 'classlist.js';  // Run `npm install --save classlist.js'.
 import 'core-js/es7/array';
@@ -43,8 +43,8 @@ import 'web-animations-js';  // Run `npm install --save web-animations-js'.
 import 'core-js/es7/reflect';
 
 /** Evergreen browsers require these. **/
-import 'core-js/es6/reflect';
-import 'core-js/es7/reflect';
+
+
 
 
 /** ALL Firefox browsers require the following to support `@angular/animation`. **/
@@ -65,7 +65,7 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  * Date, currency, decimal and percent pipes.
  * Needed for: All but Chrome, Firefox, Microsoft Edge, IE11 and Safari 10
  */
-// import 'intl';  // Run `npm install --save intl`.
+// 
 
 
 /***************************************************************************************************
@@ -74,7 +74,7 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 (window as any).global = window;
 var global = global || window;
 
-// (window as any).process = {
+// // (window as any).process = {
 //     env: { DEBUG: undefined },
 //   };
 import * as process from 'process';
