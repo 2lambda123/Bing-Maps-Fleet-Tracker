@@ -1,0 +1,925 @@
+repo_name: 2lambda123/Bing-Maps-Fleet-Tracker
+report_id: f3466a4f531731287b1fd4aa82dbb7aa
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:14:24+00:00'
+requested_by: IoTGirl
+provider: github
+branch: master
+detected_tools_count: 76
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/System.Device/System.Device.csproj
+  detection_source: Backend/src/System.Device/System.Device.csproj
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/System.Device/System.Device.csproj
+  detection_source: Backend/src/System.Device/System.Device.csproj
+- name: Angular
+  description: A platform for building mobile and desktop web applications
+  website_url: https://angular.io
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: Ionic
+  description: A beautiful front-end framework for developing cross-platform apps
+    with web technologies like Angular and React.
+  website_url: http://ionicframework.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/876/bYMCvtHD_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package.json
+  detection_source: Frontend/package.json
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 6.5.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Func/Trackable.Func.csproj
+  detection_source: Backend/src/Trackable.Func/Trackable.Func.csproj
+- name: SignalR
+  description: A new library for ASP.NET developers that makes developing real-time
+    web functionality easy.
+  website_url: https://dotnet.microsoft.com/en-us/apps/aspnet/signalr
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/4013/SignalR-logo.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.8.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 5.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  version: 5.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package.json
+  detection_source: Frontend/package.json
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/Trackable.sln
+  detection_source: Backend/Trackable.sln
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package.json
+  detection_source: Frontend/package.json
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Services/Trackable.Services.csproj
+  detection_source: Backend/src/Trackable.Services/Trackable.Services.csproj
+- name: Ionicons
+  description: Beautifully crafted open source icons
+  website_url: http://ionicons.com/
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: UI Components
+  image_url: https://img.stackshare.io/service/5368/icon.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Services/Trackable.Services.csproj
+  detection_source: Backend/src/Trackable.Services/Trackable.Services.csproj
+- name: OpenID Connect
+  description: An authorization framework
+  website_url: http://openid.net/connect/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/3620/openid-icon-250x250_400x400.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Swagger UI
+  description: A Collection of HTML, Javascript, and CSS assets that dynamically generate
+    beautiful documentation
+  website_url: https://swagger.io/tools/swagger-ui/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/3417/pIea9Ji0.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: "@angular-devkit/build-angular"
+  description: Angular Webpack Build Facade
+  package_url: https://www.npmjs.com/@angular-devkit/build-angular
+  version: 0.901.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/animations"
+  description: Angular - animations integration with web-animations
+  package_url: https://www.npmjs.com/@angular/animations
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/cdk"
+  description: Angular Material Component Development Kit
+  package_url: https://www.npmjs.com/@angular/cdk
+  version: 9.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16358/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/cli"
+  description: CLI tool for Angular
+  package_url: https://www.npmjs.com/@angular/cli
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/common"
+  description: Angular - commonly needed directives and services
+  package_url: https://www.npmjs.com/@angular/common
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/compiler"
+  description: Angular - the compiler library
+  package_url: https://www.npmjs.com/@angular/compiler
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/compiler-cli"
+  description: Angular - the compiler CLI for Node.js
+  package_url: https://www.npmjs.com/@angular/compiler-cli
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/forms"
+  description: Angular - directives and services for creating forms
+  package_url: https://www.npmjs.com/@angular/forms
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/http"
+  description: Angular - the http service
+  package_url: https://www.npmjs.com/@angular/http
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15977/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: "@angular/material"
+  description: Angular Material
+  package_url: https://www.npmjs.com/@angular/material
+  version: 9.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16444/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/platform-browser"
+  description: Angular - library for using Angular in a web browser
+  package_url: https://www.npmjs.com/@angular/platform-browser
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/platform-browser-dynamic"
+  description: Angular - library for using Angular in a web browser with JIT compilation
+  package_url: https://www.npmjs.com/@angular/platform-browser-dynamic
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@angular/platform-server"
+  description: Angular - library for using Angular in Node.js
+  package_url: https://www.npmjs.com/@angular/platform-server
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16296/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: "@angular/router"
+  description: Angular - the routing library
+  package_url: https://www.npmjs.com/@angular/router
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@ionic/storage"
+  description: Ionic Storage utility
+  package_url: https://www.npmjs.com/@ionic/storage
+  version: 1.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18355/default_04e325d6a24a93f7bb4e9096230aa4915480d6aa.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: "@types/jasmine"
+  description: TypeScript definitions for Jasmine
+  package_url: https://www.npmjs.com/@types/jasmine
+  version: 2.8.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 13.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: codelyzer
+  description: Linting for Angular applications
+  package_url: https://www.npmjs.com/codelyzer
+  version: 5.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15956/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: ionic-angular
+  description: A powerful framework for building mobile and progressive web apps with
+    JavaScript and Angular
+  package_url: https://www.npmjs.com/ionic-angular
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17096/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: jasmine-spec-reporter
+  description: Spec reporter for jasmine behavior-driven development framework
+  package_url: https://www.npmjs.com/jasmine-spec-reporter
+  version: 4.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16066/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: karma-cli
+  description: The Karma command line interface
+  package_url: https://www.npmjs.com/karma-cli
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16104/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: sw-toolbox
+  description: Service Worker Toolbox provides some simple helpers for use in creating
+    your own service workers
+  package_url: https://www.npmjs.com/sw-toolbox
+  version: 3.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18497/default_36d03266a3367d98c42512c3562c5f1c80019f7d.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/MobileClient/package.json
+  detection_source: MobileClient/package.json
+- name: tar
+  description: Tar for node
+  package_url: https://www.npmjs.com/tar
+  version: 4.4.19
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: MobileClient/package.json
+- name: ts-helpers
+  description: Typescript helpers for compiling typescript while specifying `--noEmitHelpers`
+    within your `tsconfig.json`
+  package_url: https://www.npmjs.com/ts-helpers
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16605/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 1.11.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: zone.js
+  description: Zones for JavaScript
+  package_url: https://www.npmjs.com/zone.js
+  version: 0.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Frontend/package-lock.json
+  detection_source: Frontend/package.json
+- name: AutoMapper
+  description: A convention-based object-object mapper
+  package_url: https://www.nuget.org/AutoMapper
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12871/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Repositories/Trackable.Repositories.csproj
+  detection_source: Backend/src/Trackable.Repositories/Trackable.Repositories.csproj
+- name: EntityFramework
+  description: Entity Framework is Microsoft's recommended data access technology
+    for new applications
+  package_url: https://www.nuget.org/EntityFramework
+  version: 6.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12844/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.EntityFramework/Trackable.EntityFramework.csproj
+  detection_source: Backend/src/Trackable.EntityFramework/Trackable.EntityFramework.csproj
+- name: Microsoft.ApplicationInsights.AspNetCore
+  description: Application Insights for ASP.NET Core web applications
+  package_url: https://www.nuget.org/Microsoft.ApplicationInsights.AspNetCore
+  version: 2.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13203/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Microsoft.AspNetCore.Authentication.JwtBearer
+  description: ASP.NET Core middleware that enables an application to receive an OpenID
+    Connect bearer token
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.JwtBearer
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12968/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Microsoft.AspNetCore.Authentication.OpenIdConnect
+  description: ASP.NET Core middleware that enables an application to support the
+    OpenID Connect authentication workflow
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.OpenIdConnect
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13385/default_97f005023342604c2e0668a9597b9eb6971b1d06.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Microsoft.AspNetCore.Http.Abstractions
+  description: ASP.NET Core HTTP object model for HTTP requests and responses and
+    also common extension methods for registering middleware in an IApplicationBuilder
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Http.Abstractions
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12884/default_485731cffe5047176f704e34ccfabc7dc075f3d9.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Common/Trackable.Common.csproj
+  detection_source: Backend/src/Trackable.Common/Trackable.Common.csproj
+- name: Microsoft.Extensions.Configuration
+  description: Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12856/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Services/Trackable.Services.csproj
+  detection_source: Backend/src/Trackable.Services/Trackable.Services.csproj
+- name: Microsoft.Extensions.DependencyInjection.Abstractions
+  description: Abstractions for dependency injection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection.Abstractions
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12848/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.EntityFramework/Trackable.EntityFramework.csproj
+  detection_source: Backend/src/Trackable.EntityFramework/Trackable.EntityFramework.csproj
+- name: Microsoft.Extensions.Logging
+  description: Logging infrastructure default implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12854/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Common/Trackable.Common.csproj
+  detection_source: Backend/src/Trackable.Common/Trackable.Common.csproj
+- name: Microsoft.SqlServer.Types
+  description: Allows you to use SQL Server spatial types on a machine without SQL
+    Server installed
+  package_url: https://www.nuget.org/Microsoft.SqlServer.Types
+  version: 14.0.1016
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13478/default_a5f7e489f1a0992baa6377c8f765ce325404bce2.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Func/Trackable.Func.csproj
+  detection_source: Backend/src/Trackable.Func/Trackable.Func.csproj
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Common/Trackable.Common.csproj
+  detection_source: Backend/src/Trackable.Common/Trackable.Common.csproj
+- name: Swashbuckle.AspNetCore.Swagger
+  description: Middleware to expose Swagger JSON endpoints from API's built on ASP.NET
+    Core
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore.Swagger
+  version: 6.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13451/default_eb78542773998d1500f13778aa04738ef49376bd.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Swashbuckle.AspNetCore.SwaggerGen
+  description: Swagger Generator for API's built on ASP.NET Core
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore.SwaggerGen
+  version: 6.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13225/default_c8e572417e69bbdabda8ecc4a08c016319f24023.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+- name: Swashbuckle.AspNetCore.SwaggerUI
+  description: Middleware to expose an embedded version of the swagger-ui from an
+    ASP.NET Core application
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore.SwaggerUI
+  version: 6.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13528/default_311009104e9efa41dc477451d8d60c2d0cbe7895.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Web/Trackable.Web.csproj
+  detection_source: Backend/src/Trackable.Web/Trackable.Web.csproj
+  vulnerabilities:
+  - name: Server side request forgery in SwaggerUI
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qrmm-w75w-3wpx
+    detected_date: Jan 7
+    severity: moderate
+    first_patched: 6.3.0
+- name: System.Drawing.Common
+  description: Provides access to GDI+ graphics functionality
+  package_url: https://www.nuget.org/System.Drawing.Common
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12911/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Services/Trackable.Services.csproj
+  detection_source: Backend/src/Trackable.Services/Trackable.Services.csproj
+- name: System.IdentityModel.Tokens.Jwt
+  description: Includes types that provide support for creating
+  package_url: https://www.nuget.org/System.IdentityModel.Tokens.Jwt
+  version: 6.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12920/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Services/Trackable.Services.csproj
+  detection_source: Backend/src/Trackable.Services/Trackable.Services.csproj
+  vulnerabilities:
+  - name: Microsoft Identity Denial of service vulnerability
+    cve_id: CVE-2024-21319
+    cve_url: https://github.com/advisories/GHSA-8g9c-28fc-mcx2
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 6.34.0
+  - name: 'Microsoft Security Advisory CVE-2024-21319: .NET Denial of Service Vulnerability'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-59j7-ghrg-fj52
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 6.34.0
+- name: ZXing.Net
+  description: ZXing.Net is a port of ZXing, an open-source, multi-format 1D/2D barcode
+    image processing library originally implemented in Java
+  package_url: https://www.nuget.org/ZXing.Net
+  version: 0.16.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13361/default_97f005023342604c2e0668a9597b9eb6971b1d06.png
+  detection_source_url: https://github.com/2lambda123/Bing-Maps-Fleet-Tracker/blob/master/Backend/src/Trackable.Services/Trackable.Services.csproj
+  detection_source: Backend/src/Trackable.Services/Trackable.Services.csproj
